@@ -1,8 +1,7 @@
-import { type } from "@testing-library/user-event/dist/type";
 import { useForm } from "react-hook-form";
 import { FieldValues } from "react-hook-form/dist/types";
 import { z } from "zod";
-import { zodResolver} from '@hookform/resolvers/zod';
+import { zodResolver } from '@hookform/resolvers/zod';
 
 const schema = z.object({
     name: z.string().min(3 , {message: 'Name field must be 3 characters.'}),

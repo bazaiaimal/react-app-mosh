@@ -1,5 +1,3 @@
-import React from 'react'
-import CustomBtn from '../components/CustomBtn'
 import WebsiteLinks from '../components/WebsiteLinks';
 
 export default function devlinks() {

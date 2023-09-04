@@ -1,9 +1,8 @@
 import { SimpleGrid, Text } from "@chakra-ui/react";
 import GameCard from "./GameCard";
-import useGames, { Platform } from "../gameHooks/useGames";
+import useGames from "../gameHooks/useGames";
 import GameCardSkeleton from "./GameCardSkeleton";
 import GameCardContainer from "./GameCardContainer";
-import { GenresProps } from "../gameHooks/useGenres";
 import { GameQuery } from "../game/GameApi";
 
 interface ToFilterGridGameProps {
